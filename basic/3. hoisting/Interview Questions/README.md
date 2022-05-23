@@ -57,3 +57,33 @@ Output:
 
 > **5 undefined**
 > **5 7**
+
+Study the code below and What will be the output of the code?
+
+```js
+var x = 10;
+console.log(x);
+
+function test() {
+  var x = 20;
+  console.log(x);
+
+  if (x > 10) {
+    let x = 30;
+    console.log(x);
+  }
+
+  console.log(x);
+}
+
+test();
+console.log(x);
+```
+
+Output:
+
+> **10**
+> **20**
+> **30**
+> **20**
+> **10**
