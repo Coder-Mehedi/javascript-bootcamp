@@ -1,5 +1,3 @@
-### সকল ইন্টারভিউ এর প্রশ্ন এই ফোল্ডারে দেখা যাবে।
-
 Study the code below and What will be the output of the following code?
 
 ```js
@@ -10,7 +8,9 @@ function add() {
 add();
 ```
 
-Output: **undefined**
+Output:
+
+> **undefined**
 
 Study the code below and What will be the output of the code?
 
@@ -23,4 +23,37 @@ function display() {
 display();
 ```
 
-Output: **undefined**
+Output:
+
+> **undefined**
+
+Study the code below and What will be the output of the code?
+
+```js
+function codeHoist() {
+  a = 10;
+  let b = 50;
+}
+codeHoist();
+
+console.log(a);
+console.log(b);
+```
+
+Output:
+
+> **10** > **Uncaught ReferenceError: b is not defined**
+
+Study the code below and What will be the output of the code?
+
+```js
+var x = 5;
+console.log(x + ' ' + y);
+var y = 7;
+console.log(x + ' ' + y);
+```
+
+Output:
+
+> **5 undefined**
+> **5 7**
