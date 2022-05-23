@@ -1,33 +1,12 @@
-নীচের কোডে কোথাও ভূল আছে কিনা সেটা খুজে বের করার চেষ্টা করুন। যদি থাকে তবে সেটা কেন হচ্ছে সেটা ব্যাখ্যা করুন।
+Write a simple JavaScript program to join all elements of the following array into a string.
+
+Sample array
 
 ```js
-
-let myCar = 'Lamborghini Huracan Evo'; 
-
-function changeCar() {
-    let myCar = 'Ferrari SF90 Stradale';
-    console.log(myCar);
-}
-
-let myCar = 'Ford GT';
-console.log(myCar);
-
+const myColor = ['Red', 'Green', 'White', 'Black'];
 ```
 
-
-নীচের কোডের আউটপুট কি হবে? 
-
-```js
-
-let secondHome = 'Canada';
-
-function toggleHome() {
-    let secondHome = 'Australia';
-    secondHome = 'USA';
-}
-
-toggleHome();
-
-console.log(secondHome); // What will be the output?
-
-```
+Expected Output :
+"Red,Green,White,Black"
+"Red,Green,White,Black"
+"Red+Green+White+Black"
