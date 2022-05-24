@@ -1,6 +1,8 @@
-#### Question 1:
+### What is this keyword?
 
-What logs to console the following code snippet:
+The this keyword refers to the current object in a method or constructor. The most common use of the this keyword is to eliminate the confusion between class attributes and parameters with the same name.
+
+### What logs to console the following code snippet:
 
 ```js
 const object = {
@@ -17,9 +19,7 @@ Output:
 
 > **Hello, World!**
 
-#### Question 2:
-
-What logs to console the following code snippet:
+### What logs to console the following code snippet:
 
 ```js
 function Pet(name) {
@@ -36,9 +36,7 @@ Output:
 
 > **Fluffy <br> Fluffy**
 
-#### Question 3: Tricky length
-
-What logs to console the following code snippet:
+### Tricky length - What logs to console the following code snippet:
 
 ```js
 var length = 4;
