@@ -24,3 +24,7 @@ console.log('Hello JavaScript');
   console.log('Hello JavaScript');
 })();
 ```
+
+### What are the advantages and disadvantages of using use strict?
+
+If you put "use strict"; at the top of your code (or function), then the JS is evaluated in strict mode. Strict mode throws more errors and disables some features in an effort to make your code more robust, readable, and accurate.
