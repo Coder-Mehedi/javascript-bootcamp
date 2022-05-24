@@ -1,6 +1,8 @@
-#### Question 1:
+### What is difference between pass by value and pass by reference in JavaScript?
 
-What is the output?
+In JavaScript, you can pass by value and by reference. The main difference between the two is that passing by value happens when assigning primitives while passing by reference when assigning objects.
+
+### What is the output?
 
 ```js
 var myObject = {
@@ -19,9 +21,7 @@ Output:
 
 > **20.99**
 
-#### Question 2:
-
-What is the output?
+### What is the output?
 
 ```js
 (function (a) {
@@ -34,9 +34,7 @@ Output:
 
 > **10**
 
-#### Question 3:
-
-What is the output?
+### What is the output?
 
 ```js
 function Car(color) {
@@ -52,9 +50,7 @@ Output:
 
 > **2 <br> 1**
 
-#### Question 4:
-
-What is the output?
+### What is the output?
 
 ```js
 var User = function () {};
