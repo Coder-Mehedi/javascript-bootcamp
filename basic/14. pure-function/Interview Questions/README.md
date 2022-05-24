@@ -18,3 +18,25 @@ console.log(numberArray); // returns [6]
 console.log(pureAddNumber(7)(numberArray)); // returns [6, 7]
 console.log(numberArray); // returns [6]
 ```
+
+### What is the difference between pure and impure function in JavaScript?
+
+A pure function is always predictable and has no side effects. An impure function is unpredictable and has side effects.
+
+### Why we should use pure function in JavaScript?
+
+Predictable: It produces a predictable output for the same inputs. Readable: Anyone reading the function as a standalone unit can understand its purpose completely. Reusable: Can reuse the function at multiple places of the source code without altering its and the caller's behavior.
+
+### What are some advantage of pure functions?
+
+**Benefits of pure functions:**
+
+- They're easier to reason about.
+- They're easier to combine.
+- They're easier to test.
+- They're easier to debug.
+- They're easier to parallelize.
+
+### Is map a pure function?
+
+Map is also a pure function meaning that it does not change the original array, instead, it returns a new array.
